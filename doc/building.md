@@ -1,7 +1,6 @@
-
 # How to build OpenConsole
 
-This repository uses [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) for some of its dependencies. To make sure submodules are restored or updated, be sure to run the following prior to building:
+This repository uses [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) for some of its dependencies. To make sure submodules are restored or updated, be sure to run the following before building:
 
 ```shell
 git submodule update --init --recursive
@@ -48,7 +47,7 @@ There are also scripts for running the tests:
 
 ## Running & Debugging
 
-To debug the Windows Terminal in VS, right click on `CascadiaPackage` (in the Solution Explorer) and go to properties. In the Debug menu, change "Application process" and "Background task process" to "Native Only".
+To debug the Windows Terminal in VS, right-click on `CascadiaPackage` (in the Solution Explorer) and go to properties. In the Debug menu, change "Application process" and "Background task process" to "Native Only".
 
 You should then be able to build & debug the Terminal project by hitting <kbd>F5</kbd>.
 
